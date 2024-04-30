@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+</body>
+<script>
+    var a={"name":"abc","num":2}
+    console.log(a.name)
+    console.log(a.num)
+    document.getElementsByTagName("p")[0].innerHTML=a
+    document.getElementsByTagName("p")[1].innerHTML=a.num
+    var b='{"name":"John", "age":30, "city":"New York"}'
+    document.getElementsByTagName("p")[2].innerHTML=b
+    var c=JSON.parse(b)
+    document.getElementsByTagName("p")[2].innerHTML=c.name
+    document.getElementsByTagName("p")[3].innerHTML=c.age
+    document.getElementsByTagName("p")[4].innerHTML=c.city
+
+</script>
+</html>

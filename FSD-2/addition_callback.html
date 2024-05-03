@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="" id="one" value="">
+    <input type="number" name="" id="two" value="">
+    <p style="border: 2px solid; padding: 20px; width: 100px;">Null</p>
+    <button onclick="abc()">Add</button>
+</body>
+<script> 
+    function abc(){
+        var a=parseInt( document.getElementById("one").value)
+        var b= parseInt( document.getElementById("two").value)
+        setTimeout( ()=>{
+            var c= a+b
+            document.getElementsByTagName("p")[0].innerHTML=c
+        },3000)
+    }   
+</script>
+</html>

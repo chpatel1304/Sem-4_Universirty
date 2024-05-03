@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <button onclick="abc()">Click Me For Console</button>
+    <button onclick="ab()">Click Me For Browser</button>
+    <div class="main" style="background-color: red;">Hello</div>
+    <div class="sub" style="background-color: aqua; display: none;">Byeeeee
+    </div>
+
+</body>
+<script>
+    function abc(){
+        setTimeout(function (){
+            console.log("Message will be printed after 3 seconds")
+        },3000)
+    }
+    function ab(){
+        setTimeout(function (){
+            document.getElementsByTagName("p")[0].innerHTML="Message will be printed after 3 seconds"
+        },3000)
+    }
+    $(document).ready(function () {
+        $(".main").click(function () {
+            $(".sub").slideDown(3000)
+            
+        })
+        
+    })
+</script>
+</html>

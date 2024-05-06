@@ -12,5 +12,3 @@ plt.legend(['one','two'],loc='best')
 plt.fill_between(a1,a2,color="g",alpha=0.7)
 plt.plot(a1,a2,color="r")
 plt.show()
-
-

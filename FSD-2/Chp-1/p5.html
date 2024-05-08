@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- WRITE A JS CODE TO STORE AN ARRAY HAVING AGE NAD NAME DISPPLAY NAME THE PERSON HAVING MAX AGE   -->
+</body>
+<script>
+    var arr=[{"Name":"Chirag","Age":21},{"Name":"Yasvi","Age":19},{"Name":"Tanvi","Age":20}]
+    let max=arr[0]
+    for (let i = 1; i<arr.length; i++) {
+        if (arr[i].Age>max.Age){
+            max=arr[i]
+        }
+    }
+    console.log(max)
+</script>
+</html>

@@ -3,9 +3,13 @@ import pandas as pd
 def find_outliers(ds, col):
     quart1 = ds[col].quantile(0.25)
     quart3 = ds[col].quantile(0.75)
+    print(quart1)
+    print(quart3)
     IQR = quart3 - quart1 #Inter-quartile range
     low_val = quart1 - 1.5*IQR
     high_val = quart3 + 1.5*IQR
+    print(low_val)
+    print(high_val)
     ds = ds.loc[(ds[col] < low_val) | (ds[col] > high_val)]
     return ds
 dataset = pd.read_csv("Datasets\\auto-mpg.csv")

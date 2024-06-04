@@ -1,0 +1,46 @@
+.main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    background-color: #e5e5f7;
+    width: 400px;
+    opacity: 0.5;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+}
+.main-form input{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.main-form input:hover{
+    width: 230px;
+    height: 50px;
+}
+.main-form textarea{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.main-form textarea:hover{
+    width: 230px;
+    height: 50px;
+}
+.main-form .btn{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.main-form .btn:hover{
+    width: 130px;
+    height: 58px;
+    background-color: black;
+    color: white;
+}

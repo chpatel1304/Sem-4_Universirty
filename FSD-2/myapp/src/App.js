@@ -2,6 +2,7 @@
 import './App.css';
 import Events from './Events';
 import Events1 from './Events1';
+import Events2 from './Events2';
 // import FirstComponent from './FirstComponent';
 // import PicImage from "./PicImage"
 import Props from './Props';
@@ -19,6 +20,7 @@ function App() {
       <Task1 obj={students}/>
       <Events/>
       <Events1/>
+      <Events2/>
     </div>
   );
 }

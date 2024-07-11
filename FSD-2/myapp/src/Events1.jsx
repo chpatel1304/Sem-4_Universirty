@@ -8,8 +8,8 @@ export default function Events1() {
   return (
     <div>
         <form action="" onSubmit={handleSubmit}>
-            <input type="text" name='uname' />Enter Name
-            <input type="submit" />Submit
+        Enter Name<input type="text" name='uname' />
+        <input type="submit" />
         </form>
     </div>
   )

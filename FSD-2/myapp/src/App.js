@@ -7,9 +7,13 @@ import Events2 from './Events2';
 // import PicImage from "./PicImage"
 import Props from './Props';
 import Task1 from './Task1';
+import Task2 from './Task2';
+import Map from './map';
+import pc from "./pc.jpg"
 function App() {
   const xyz="Computer"
   const students=[{"student_name":"Tanvi","uni_name":"LJIET"},{"student_name":"Chirag","uni_name":"LJKU"}]
+  const arr=[{"Name":"ABC","Pic":pc,"Price":"20000"},{"Name":"XYZ","Pic":pc,"Price":"45000"}]
   return (
     <div className="App">
       {/* <h1>Welcome To Rohit Universe</h1> */}
@@ -21,6 +25,8 @@ function App() {
       <Events/>
       <Events1/>
       <Events2/>
+      <Map/>
+      <Task2 arr={arr}/>
     </div>
   );
 }

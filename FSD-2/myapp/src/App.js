@@ -13,6 +13,13 @@ import Task3 from './Task3';
 import Map from './map';
 import pc from "./pc.jpg"
 import MainFile from "./MainFile"
+import Hooks from './hooks';
+import Task4 from './Task4';
+import Task5 from './Task5';
+import Task6 from './Task6';
+import Task7 from './Task7';
+import Task9 from './Task9';
+
 function App() {
   const xyz="Computer"
   const students=[{"student_name":"Tanvi","uni_name":"LJIET"},{"student_name":"Chirag","uni_name":"LJKU"}]
@@ -33,6 +40,12 @@ function App() {
       <Task3/>
       <Filter1/> */}
       <MainFile/>
+      <Hooks/>
+      <Task4/>
+      <Task5/>
+      <Task6/>
+      <Task7/>
+      <Task9/>
     </div>
   );
 }

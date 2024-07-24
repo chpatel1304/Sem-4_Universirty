@@ -23,6 +23,7 @@ import Task8 from './Task8';
 import Task11 from './Task11';
 import Task12 from './Task12';
 import Task13 from './Task13';
+import Use_reducer_1 from './Use_reducer_1';
 
 function App() {
   const xyz="Computer"
@@ -52,8 +53,9 @@ function App() {
       <Task7/>
       <Task9/> */}
       {/* <Task11/> */}
-      <Task12/>
-      <Task13/>
+      {/* <Task12/> */}
+      {/* <Task13/> */}
+      <Use_reducer_1/>
     </div>
   );
 }

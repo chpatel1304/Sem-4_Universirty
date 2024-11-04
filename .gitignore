@@ -1,2 +1,8 @@
 
 FSD-2/Chp-2/APD07136.JPG
+https://dev6intellial@bitbucket.org/intellial-sparrow/pms-sparrow.git
+CJyhj2tKh5vZ8348hvfb
+
+virtualenv -p python3.7 venv
+
+pip install -r requirement.txt

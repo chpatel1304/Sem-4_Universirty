@@ -1,2 +1,39 @@
 
-FSD-2/Chp-2/APD07136.JPG
+https://dev6intellial@bitbucket.org/intellial-sparrow/pms-sparrow.git
+CJyhj2tKh5vZ8348hvfb
+https://dev6intellial@bitbucket.org/intellial-sparrow/power-sales.git
+CJyhj2tKh5vZ8348hvfb
+
+virtualenv -p python3.7 venv
+pip install -r requirement.txt
+
+Last updated on: 26-01-2023
+ATTENDANCE & LEAVE POLICY
+Attendance:
+Employees must complete 9.5 working hours (i.e. 9 and half), which includes 30 minutes of lunch and other breaks. 
+Employees must register attendance maximum by 9:30AM. Attendance registered afterwards will be considered as late coming if prior intimation is not made. 
+Official time 9:30AM to 7:00PM
+Prior intimation for late coming should happen at least before 2 hours.
+Each late coming with prior intimation will be treated either quarter or half leave depending on the amount of time.
+Total 3 late comings in a month will result in 1 day of salary cut.
+Leaves:
+No leaves are granted to employees under Training Period, Probation or Notice period after resignation & therefore all leaves taken shall be leave without pay.  
+Probation generally covers a period between six months to 8 months. But exceptionally hardworking and dedicated efforts will convince us to give you an early confirmation and similarly any unauthorized leave and lack of dedication will only push the date of confirmation even further.
+At confirmation employees will be able to avail leaves as per standard rules.
+Leave entitlements after confirmation:
+Total Casual Leaves (CL) during the year:               12
+Leaves are granted at the beginning of the year on a pro-rata basis. 
+Casual Leave rules:
+Week-offs and holidays that fall during the period of CL will be counted as leave, if the employee has not got his/her leaves approved 2 weeks in advance.
+Week-offs pre-fixed or post-fixed with leave will be counted as CL, if the employee has not his/her leaves approved 2 weeks in advance.
+Total leaves of more than 4 days will also include all week-offs that come in-between and just after the leaves. 
+CL can be taken in the form of HALF and QUARTER. HALF leave is 1/2 of CL and QUARTER leave is 1/4 of CL.
+4 consecutive QUARTER leaves can be clubbed as full leave.
+2 consecutive HALF leaves can be clubbed as full leave. 
+Before confirmation leave rules:
+Week-offs and holidays that fall during or adjacent to the period of LWP will be counted as LWP.
+Week-offs pre-fixed or post-fixed with leave will be counted as LWP.
+Leave entitlement after resignation or termination:
+Following a resignation, no paid leaves will be granted. Any leave taken, including weekends if leaves are applied adjacent to them, will be treated as 'Leave without pay'.
+Leaves taken after the resignation- while notice period - will extend the notice period by that many number of days. 
+If the total leaves taken at the time of resignation is higher than the pro-rata based allowed, the extra leaves will be considered as unpaid leaves and will be required to be deducted from full and final settlement. 
